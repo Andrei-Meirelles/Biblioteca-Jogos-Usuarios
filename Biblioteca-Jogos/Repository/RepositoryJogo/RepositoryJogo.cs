@@ -28,6 +28,16 @@ namespace Biblioteca_Jogos
         {
             await _context.SaveChangesAsync();
         }
-        public async Task
+        public async Task DeleteRJ(Jogo jogo)
+        {
+            _context.Jogo.Remove(jogo);
+            await _context.SaveChangesAsync();
+
+        }
+
+        public async Task<Jogo?> GetIdRJ(int id)
+        {
+            return await _context.Jogo.FindAsync(id);
+        }
     }
 }
