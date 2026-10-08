@@ -62,5 +62,10 @@
             return true;
 
         }
+
+        public async Task<Jogo?> GetIdSJ(int id)
+        {
+            return await _Rj.GetIdRJ(id);
+        }
     }
 }

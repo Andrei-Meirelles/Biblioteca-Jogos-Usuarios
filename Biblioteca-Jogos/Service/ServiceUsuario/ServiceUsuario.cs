@@ -81,6 +81,16 @@ namespace Biblioteca_Usuario
             return true;
 
         }
+
+        public async Task<Usuario?> GetIdSU(int id)
+        {
+            var usuario = await _Ru.GetIdRU(id);
+            if(usuario == null)
+            {
+                return null;
+            }
+            return usuario;
+        }
         
 
     }

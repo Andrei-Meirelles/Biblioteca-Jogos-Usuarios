@@ -28,7 +28,7 @@ namespace Biblioteca_Usuario
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post(DtoRequest request)
+        public async Task<IActionResult> Post([FromForm]DtoRequest request)
         {
             var usuario = await _Su.PostSU(request);
             if (usuario == null)
@@ -39,7 +39,7 @@ namespace Biblioteca_Usuario
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id)
+        public async Task<IActionResult> Put([FromForm]int id)
         {
             var usuario = await _Su.PutSU(id);
             if (usuario == null)
@@ -60,6 +60,17 @@ namespace Biblioteca_Usuario
                 return NotFound("Usuario não encontrado");
             }
             return Ok("Usuario Deletado");
+        }
+        [HttpGet("{id}")]
+
+        public async Task<IActionResult> GetId(int id)
+        {
+            var usuario = await _Su.GetIdSU(id);
+            if(usuario == null)
+            {
+                return NotFound("Usuario não encontrado");
+            }
+            return Ok(usuario);
         }
     }
 }
