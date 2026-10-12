@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\controllers\\usuariocontroller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\controllers\\usuariocontroller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\service\\serviceusuario\\serviceusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\service\\serviceusuario\\serviceusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\service\\servicejogo\\servicejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\service\\servicejogo\\servicejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\repository\\repositoryusuario\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\repository\\repositoryusuario\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\dtos\\dtousuario\\dtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\dtos\\dtousuario\\dtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\models\\modelusuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\models\\modelusuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\models\\modeljogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\models\\modeljogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\models\\modeljogo\\statusjogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,44 +51,12 @@
       "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\controllers\\jogocontroller\\jogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\controllers\\usuariocontroller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\controllers\\usuariocontroller\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\repository\\repositoryusuario\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\repository\\repositoryusuario\\repositoryusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\service\\serviceusuario\\serviceusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\service\\serviceusuario\\serviceusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\dtos\\dtousuario\\dtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\dtos\\dtousuario\\dtorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\repository\\repositoryjogo\\repositoryjogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\repository\\repositoryjogo\\repositoryjogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\service\\servicejogo\\servicejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\service\\servicejogo\\servicejogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\models\\modeljogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\models\\modeljogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\dtos\\dtojogo\\jogorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\dtos\\dtojogo\\jogorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\models\\modelusuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\models\\modelusuario\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|solutionrelative:biblioteca-jogos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D05ED3D-8231-49AA-8EE5-3AF933ABD585}|Biblioteca-Jogos\\Biblioteca-Jogos.csproj|c:\\users\\andrei\\documents\\projetos pessoais\\biblioteca-jogos\\biblioteca-jogos\\dtos\\dtousuario\\dtoresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,17 +70,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Jogo.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Models\\ModelJogo\\Jogo.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\Models\\ModelJogo\\Jogo.cs",
               "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Models\\ModelJogo\\Jogo.cs",
               "RelativeToolTip": "Biblioteca-Jogos\\Models\\ModelJogo\\Jogo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T18:18:08.315Z",
               "IsPinned": true
@@ -91,59 +91,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceJogo.cs",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
-              "RelativeDocumentMoniker": "Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
-              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
-              "RelativeToolTip": "Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwEEAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T23:30:56.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RepositoryJogo.cs",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
-              "RelativeDocumentMoniker": "Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
-              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
-              "RelativeToolTip": "Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T20:05:55.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "DtoRequest.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\DTOS\\DtoUsuario\\DtoRequest.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\DTOS\\DtoUsuario\\DtoRequest.cs",
               "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\DTOS\\DtoUsuario\\DtoRequest.cs",
               "RelativeToolTip": "Biblioteca-Jogos\\DTOS\\DtoUsuario\\DtoRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T21:25:15.539Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T21:25:15.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ServiceUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Service\\ServiceUsuario\\ServiceUsuario.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\Service\\ServiceUsuario\\ServiceUsuario.cs",
               "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Service\\ServiceUsuario\\ServiceUsuario.cs",
               "RelativeToolTip": "Biblioteca-Jogos\\Service\\ServiceUsuario\\ServiceUsuario.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFQAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T21:22:11.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "MyContext.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\MyContext\\MyContext.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\MyContext\\MyContext.cs",
@@ -151,8 +124,7 @@
               "RelativeToolTip": "Biblioteca-Jogos\\MyContext\\MyContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T18:26:29.124Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T18:26:29.124Z"
             },
             {
               "$type": "Document",
@@ -162,14 +134,13 @@
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\Repository\\RepositoryUsuario\\RepositoryUsuario.cs",
               "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Repository\\RepositoryUsuario\\RepositoryUsuario.cs",
               "RelativeToolTip": "Biblioteca-Jogos\\Repository\\RepositoryUsuario\\RepositoryUsuario.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowBsAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T18:24:34.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T18:24:34.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "StatusJogo.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Models\\ModelJogo\\StatusJogo.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\Models\\ModelJogo\\StatusJogo.cs",
@@ -177,38 +148,86 @@
               "RelativeToolTip": "Biblioteca-Jogos\\Models\\ModelJogo\\StatusJogo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T18:20:12.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-05T18:20:12.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Controllers\\UsuarioController\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\Controllers\\UsuarioController\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Controllers\\UsuarioController\\UsuarioController.cs",
               "RelativeToolTip": "Biblioteca-Jogos\\Controllers\\UsuarioController\\UsuarioController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T19:33:00.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Program.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\Program.cs",
               "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Program.cs",
               "RelativeToolTip": "Biblioteca-Jogos\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAwwEwAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T18:31:47.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
+              "RelativeDocumentMoniker": "Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
+              "RelativeToolTip": "Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T18:12:34.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\appsettings.json",
+              "RelativeDocumentMoniker": "Biblioteca-Jogos\\appsettings.json",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\appsettings.json",
+              "RelativeToolTip": "Biblioteca-Jogos\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-05T18:30:21.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RepositoryJogo.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
+              "RelativeDocumentMoniker": "Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
+              "RelativeToolTip": "Biblioteca-Jogos\\Repository\\RepositoryJogo\\RepositoryJogo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-06T20:05:55.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceJogo.cs",
+              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
+              "RelativeDocumentMoniker": "Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
+              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
+              "RelativeToolTip": "Biblioteca-Jogos\\Service\\ServiceJogo\\ServiceJogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-07T23:30:56.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "JogoController.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Controllers\\JogoController\\JogoController.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\Controllers\\JogoController\\JogoController.cs",
@@ -216,12 +235,11 @@
               "RelativeToolTip": "Biblioteca-Jogos\\Controllers\\JogoController\\JogoController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAEQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-07T23:50:49.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-07T23:50:49.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "JogoRequest.cs",
               "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\DTOS\\DtoJogo\\JogoRequest.cs",
               "RelativeDocumentMoniker": "Biblioteca-Jogos\\DTOS\\DtoJogo\\JogoRequest.cs",
@@ -242,30 +260,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-05T21:25:24.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
-              "RelativeDocumentMoniker": "Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
-              "RelativeToolTip": "Biblioteca-Jogos\\Models\\ModelUsuario\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-05T18:12:34.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\appsettings.json",
-              "RelativeDocumentMoniker": "Biblioteca-Jogos\\appsettings.json",
-              "ToolTip": "C:\\Users\\Andrei\\Documents\\Projetos Pessoais\\Biblioteca-Jogos\\Biblioteca-Jogos\\appsettings.json",
-              "RelativeToolTip": "Biblioteca-Jogos\\appsettings.json",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-10-05T18:30:21.677Z"
             }
           ]
         }

@@ -1,12 +1,18 @@
-﻿namespace Biblioteca_Usuario
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Biblioteca_Usuario
 
 {
     public class Usuario
     {
         public int id { get; set; }
-        public string Nome { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string Senha { get; set; } = string.Empty;
+
+        [Required]
+        public string Nome { get; set; }
+        [Required]
+        public string Email { get; set; }
+        [Required]
+        public string Senha { get; set; } 
         public string Cargo { get; private set; } = "Usuario";
 
         public Usuario(string nome, string email, string senha)

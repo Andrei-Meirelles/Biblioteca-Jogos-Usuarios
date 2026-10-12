@@ -1,11 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Biblioteca_Jogos
 {
     public class Jogo
     {
         public int id { get; set; }
-        public string Nome { get; set; } = string.Empty;
+        [Required]
+        public string Nome { get; set; }
+        [Required]
 
         [Column(TypeName = "decimal(4,2)")]
         public decimal Avaliacao { get; set; }

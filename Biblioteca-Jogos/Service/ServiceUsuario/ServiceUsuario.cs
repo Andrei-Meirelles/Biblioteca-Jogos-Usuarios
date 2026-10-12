@@ -1,14 +1,75 @@
 ﻿using Biblioteca_Usuario;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Net.Mail;
+using System.Security.Claims;
+using System.Text;
 
 namespace Biblioteca_Usuario
 {
     public class ServiceUsuario
     {
         private readonly RepositoryUsuario _Ru;
+        private readonly IConfiguration _configuration;
 
-        public ServiceUsuario(RepositoryUsuario Ru)
+        public ServiceUsuario(RepositoryUsuario Ru, IConfiguration configuration)
         {
             _Ru = Ru;
+            _configuration = configuration;
+        }
+
+        public async Task<string?> Login(DtoRequest usuariodto)
+        {
+
+            //Pega o usuario
+            var usuario = await _Ru.FirsOrDefault(usuariodto.Email);
+
+            if (usuario == null)
+            {
+                return null;
+            }
+
+
+            //verifica a senha
+            bool senhavalida = BCrypt.Net.BCrypt.Verify(usuariodto.Senha, usuario.Senha);
+            if (!senhavalida)
+            {
+                return null;
+            }
+
+            var tokenhandler = new JwtSecurityTokenHandler();
+
+            var key = Encoding.UTF8.GetBytes(_configuration ["jwt:key"]!);
+            var tokendescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+                    new Claim(ClaimTypes.Name, usuario.Email),
+                    new Claim(ClaimTypes.Role, usuario.Cargo)
+
+
+
+                }),
+
+                Expires = DateTime.UtcNow.AddHours(2),
+                Issuer = _configuration["jwt:Issuer"],
+                Audience = _configuration["jwt:Audience"],
+
+                SigningCredentials = new SigningCredentials(
+                    new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256)
+
+
+
+
+
+            };
+
+            var token = tokenhandler.CreateToken(tokendescriptor);
+            var jwt = tokenhandler.WriteToken(token);
+            return jwt;
+
+
+
         }
 
         public async Task<List<DtoResponse>?> GetSU()
@@ -38,7 +99,10 @@ namespace Biblioteca_Usuario
                 return null;
             }
 
-            var usuarionovo = new Usuario(requestdto.Nome, requestdto.Email, requestdto.Senha);
+            var senha = BCrypt.Net.BCrypt.HashPassword(requestdto.Senha);
+            
+
+            var usuarionovo = new Usuario(requestdto.Nome, requestdto.Email, senha);
 
             await _Ru.PostRU(usuarionovo);
 
