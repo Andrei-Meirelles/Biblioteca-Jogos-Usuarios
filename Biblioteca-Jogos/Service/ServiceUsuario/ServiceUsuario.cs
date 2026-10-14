@@ -18,11 +18,11 @@ namespace Biblioteca_Usuario
             _configuration = configuration;
         }
 
-        public async Task<string?> Login(DtoRequest usuariodto)
+        public async Task<string?> Login(LoginDto login)
         {
 
             //Pega o usuario
-            var usuario = await _Ru.FirsOrDefault(usuariodto.Email);
+            var usuario = await _Ru.FirsOrDefault(login.Email);
 
             if (usuario == null)
             {
@@ -31,7 +31,7 @@ namespace Biblioteca_Usuario
 
 
             //verifica a senha
-            bool senhavalida = BCrypt.Net.BCrypt.Verify(usuariodto.Senha, usuario.Senha);
+            bool senhavalida = BCrypt.Net.BCrypt.Verify(login.Senha, usuario.Senha);
             if (!senhavalida)
             {
                 return null;
@@ -111,7 +111,7 @@ namespace Biblioteca_Usuario
 
 
         }
-        public async Task<DtoResponse?> PutSU(int id)
+        public async Task<Usuario?> PutSU(DtoRequest usuariodto, int id)
         {
             var usuario = await _Ru.GetIdRU(id);
             if (usuario == null)
@@ -119,14 +119,12 @@ namespace Biblioteca_Usuario
                 return null;
             }
 
-            var responsedto = new DtoResponse()
-            {
-                id = usuario.id,
-                Nome = usuario.Nome
+            usuario.Nome = usuariodto.Nome;
+            usuario.Email = usuariodto.Email;
+            usuario.Senha = usuariodto.Senha;
 
-
-            };
-            return responsedto;
+            
+            return usuario;
 
 
 

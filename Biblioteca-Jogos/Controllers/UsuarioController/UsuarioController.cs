@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Biblioteca_Jogos;
+using Biblioteca_Usuario;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteca_Usuario
@@ -15,6 +17,17 @@ namespace Biblioteca_Usuario
             _Su = Su;
         }
 
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login(LoginDto login)
+        {
+            var usuario = await _Su.Login(login);
+            if (usuario == null)
+            {
+                return NotFound("usuario não encontrado");
+            }
+            return Ok(usuario);
+        }
+
         [Authorize(Roles = "Admin")]
         [HttpGet]
         public async Task<IActionResult> Get()
@@ -22,7 +35,7 @@ namespace Biblioteca_Usuario
             var usuarios = await _Su.GetSU();
             if (usuarios == null)
             {
-                return NotFound("Banco vazia");
+                return NotFound("Banco vazio");
             }
             return Ok(usuarios);
             
@@ -38,11 +51,11 @@ namespace Biblioteca_Usuario
             }
             return Created("",usuario);
         }
-
+        [Authorize(Roles = "Usuario")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> Put([FromForm]int id)
+        public async Task<IActionResult> Put([FromForm]DtoRequest usuariodto, int id)
         {
-            var usuario = await _Su.PutSU(id);
+            var usuario = await _Su.PutSU(usuariodto, id);
             if (usuario == null)
             {
                 return NotFound("Usuario não encontrado");
@@ -51,6 +64,7 @@ namespace Biblioteca_Usuario
 
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
 
         public async Task<IActionResult> Delete(int id)
@@ -62,6 +76,8 @@ namespace Biblioteca_Usuario
             }
             return Ok("Usuario Deletado");
         }
+
+        [Authorize(Roles = "Usuario")]
         [HttpGet("{id}")]
 
         public async Task<IActionResult> GetId(int id)
