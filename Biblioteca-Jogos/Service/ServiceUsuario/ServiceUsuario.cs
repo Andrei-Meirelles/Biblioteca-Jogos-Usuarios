@@ -153,6 +153,11 @@ namespace Biblioteca_Usuario
             }
             return usuario;
         }
+
+        public async Task<Usuario?> FirstOrDefault(string Email)
+        {
+            return await _Ru.FirsOrDefault(Email);
+        }
         
 
     }

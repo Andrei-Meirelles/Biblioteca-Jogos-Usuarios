@@ -45,6 +45,19 @@ namespace Biblioteca_Jogos.Migrations
                     b.ToTable("Jogo");
                 });
 
+            modelBuilder.Entity("Biblioteca_Usuario.Lista", b =>
+                {
+                    b.Property<int>("idUsuario")
+                        .HasColumnType("int");
+
+                    b.Property<int>("idJogo")
+                        .HasColumnType("int");
+
+                    b.HasKey("idUsuario", "idJogo");
+
+                    b.ToTable("Lista");
+                });
+
             modelBuilder.Entity("Biblioteca_Usuario.Usuario", b =>
                 {
                     b.Property<int>("id")

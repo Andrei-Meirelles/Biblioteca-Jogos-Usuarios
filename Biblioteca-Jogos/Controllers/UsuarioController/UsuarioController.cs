@@ -18,7 +18,7 @@ namespace Biblioteca_Usuario
         }
 
         [HttpPost("Login")]
-        public async Task<IActionResult> Login(LoginDto login)
+        public async Task<IActionResult> Login([FromForm]LoginDto login)
         {
             var usuario = await _Su.Login(login);
             if (usuario == null)

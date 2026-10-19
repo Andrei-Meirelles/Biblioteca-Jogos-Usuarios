@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Biblioteca_Jogos.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20261005192123_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20261017133144_DropColumn")]
+    partial class DropColumn
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,18 +33,32 @@ namespace Biblioteca_Jogos.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<decimal>("Avaliacao")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(4,2)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("StatusJogo")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("id");
 
                     b.ToTable("Jogo");
+                });
+
+            modelBuilder.Entity("Biblioteca_Usuario.Lista", b =>
+                {
+                    b.Property<int>("idUsuario")
+                        .HasColumnType("int");
+
+                    b.Property<int>("idJogo")
+                        .HasColumnType("int");
+
+                    b.HasKey("idUsuario", "idJogo");
+
+                    b.ToTable("Lista");
                 });
 
             modelBuilder.Entity("Biblioteca_Usuario.Usuario", b =>

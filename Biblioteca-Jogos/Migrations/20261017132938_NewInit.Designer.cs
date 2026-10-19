@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Biblioteca_Jogos.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20261005193435_Test")]
-    partial class Test
+    [Migration("20261017132938_NewInit")]
+    partial class NewInit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -46,6 +46,23 @@ namespace Biblioteca_Jogos.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Jogo");
+                });
+
+            modelBuilder.Entity("Biblioteca_Usuario.Lista", b =>
+                {
+                    b.Property<int>("idUsuario")
+                        .HasColumnType("int");
+
+                    b.Property<int>("idJogo")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Jogo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("idUsuario", "idJogo");
+
+                    b.ToTable("Lista");
                 });
 
             modelBuilder.Entity("Biblioteca_Usuario.Usuario", b =>
