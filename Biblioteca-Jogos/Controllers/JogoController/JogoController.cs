@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteca_Jogos.Controllers.JogoController
 {
@@ -15,6 +16,7 @@ namespace Biblioteca_Jogos.Controllers.JogoController
             _Sj = Sj;
         }
 
+        [Authorize(Roles = "Usuario")]
         [HttpGet]
 
         public async Task<IActionResult> GetJ()
@@ -26,6 +28,7 @@ namespace Biblioteca_Jogos.Controllers.JogoController
             }
             return Ok(jogos);
         }
+        [Authorize(Roles = "Admin")]
         [HttpPost]
 
         public async Task<IActionResult> PostJ([FromForm]JogoRequest jogodto)
@@ -37,10 +40,11 @@ namespace Biblioteca_Jogos.Controllers.JogoController
             }
             return Created("", jogo);
         }
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutJ([FromForm]int id)
+        public async Task<IActionResult> PutJ([FromForm]JogoRequest jogodto,int id)
         {
-            var jogo = await _Sj.PutSJ(id);
+            var jogo = await _Sj.PutSJ(jogodto,id);
             if (jogo == null)
             {
                 return NotFound("Jogo não encontrado");
@@ -49,7 +53,7 @@ namespace Biblioteca_Jogos.Controllers.JogoController
 
             return Ok("jogo atualizado");
         }
-
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteJ(int id)
         {
@@ -62,6 +66,7 @@ namespace Biblioteca_Jogos.Controllers.JogoController
             return Ok("Jogo deletado");
         }
 
+        [Authorize(Roles = "Usuario")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetidJ(int id)
         {

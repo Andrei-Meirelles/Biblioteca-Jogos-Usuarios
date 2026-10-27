@@ -111,9 +111,9 @@ namespace Biblioteca_Usuario
 
 
         }
-        public async Task<Usuario?> PutSU(DtoRequest usuariodto, int id)
+        public async Task<Usuario?> PutSU(DtoRequest usuariodto, string Email)
         {
-            var usuario = await _Ru.GetIdRU(id);
+            var usuario = await _Ru.FirsOrDefault(Email);
             if (usuario == null)
             {
                 return null;

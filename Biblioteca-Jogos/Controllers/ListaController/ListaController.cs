@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Biblioteca_Jogos.DTOS.DtoLista;
-namespace Biblioteca_Jogos
+using Microsoft.AspNetCore.Authorization;
+namespace Biblioteca_Usuario
 {
 
     [ApiController]
@@ -22,10 +23,10 @@ namespace Biblioteca_Jogos
             _Sj = Sj;
             _Su = Su;
         }
+        [Authorize(Roles = "Usuario")]
+        [HttpPost("Lista")]
 
-        [HttpPost("{id}")]
-
-        public async Task<IActionResult> Post(ListaDto lista)
+        public async Task<IActionResult> Post([FromForm]ListaDto lista)
         {
             var email = User.FindFirst(ClaimTypes.Name)?.Value;
             
@@ -33,17 +34,42 @@ namespace Biblioteca_Jogos
 
             if (Usuario == null)
             {
-                return NotFound();
+                return NotFound("Usuario não encontrado");
             }
 
             await _Sl.PostSl(lista,email!);
 
-            return Ok();
+            return Ok("Jogo adicionado na sua lista.");
 
 
 
 
             
+
+        }
+
+        [Authorize(Roles = "Usuario")]
+
+        [HttpGet("Meus Jogos")]
+
+        public async Task<IActionResult> Get()
+        {
+            var Email = User.FindFirst(ClaimTypes.Name)?.Value;
+
+           if (Email == null)
+            {
+                return NotFound("Usuario não encontrado");
+            }
+          
+
+
+           var lista = await _Sl.GetSL(Email!);
+            if (lista == null)
+            {
+                return NotFound("Erro");
+            }
+
+            return Ok(lista);
 
         }
     }

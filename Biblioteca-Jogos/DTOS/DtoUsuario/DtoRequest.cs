@@ -7,8 +7,7 @@ namespace Biblioteca_Usuario
     {
 
         [Required]
-        [MinLength(1)]
-        [MaxLength(100)]
+        [StringLength(100, MinimumLength = 5, ErrorMessage = "O nome deve ter entre 5 a 100 caracteres.")]
         [DefaultValue("")]
         public string Nome { get; set; } = string.Empty;
         [Required]
@@ -17,7 +16,7 @@ namespace Biblioteca_Usuario
 
         public string Email { get; set; } = string.Empty;
         [Required]
-        [MinLength(5)]
+        [StringLength(100, MinimumLength = 5, ErrorMessage = "A senha deve ter entre 5 e 100 caracteres.")]
         [DefaultValue("")]
         
         public string Senha { get; set; } = string.Empty;

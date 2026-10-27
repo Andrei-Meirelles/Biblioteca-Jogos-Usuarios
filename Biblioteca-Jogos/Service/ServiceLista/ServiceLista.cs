@@ -18,21 +18,43 @@ namespace Biblioteca_Usuario
             _Ru = Ru;
         }
 
-        public async Task<List<Lista>?> GetSL()
+        public async Task<List<Jogo>?> GetSL(string Email)
         {
-            return await _Rl.getRL();
+           
+            if (Email == null)
+            {
+                return null;
+            }
+            var usuario = await _Ru.FirsOrDefault(Email);
+            var lista = await _Rl.getRL(usuario!);
+
+            
+            var jogos = await _Rl.getRj(lista!);
+
+            if (usuario == null ||lista == null)
+            {
+                return null;
+            }
+
+            return jogos;
         }
 
         public async Task<bool> PostSl(ListaDto lista,string Email)
         {
-            if (lista == null)
+            if (lista == null || Email == null)
             {
                 return false;
             }
             var usuario = await _Ru.FirsOrDefault(Email);
+
             var jogo = await _Rj.GetIdRJ(lista.idJogo);
 
-            var jogolista = new Lista(jogo!.id, usuario!.id);
+            if (usuario == null || jogo == null)
+            {
+                return false;
+            }
+
+            var jogolista = new Lista(usuario!.id, jogo!.id);
 
             await _Rl.PostRl(jogolista);
 

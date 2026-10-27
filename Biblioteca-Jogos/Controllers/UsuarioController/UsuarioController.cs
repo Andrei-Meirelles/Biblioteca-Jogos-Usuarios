@@ -52,10 +52,10 @@ namespace Biblioteca_Usuario
             return Created("",usuario);
         }
         [Authorize(Roles = "Usuario")]
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put([FromForm]DtoRequest usuariodto, int id)
+        [HttpPut("{Email}")]
+        public async Task<IActionResult> Put([FromForm]DtoRequest usuariodto, string email)
         {
-            var usuario = await _Su.PutSU(usuariodto, id);
+            var usuario = await _Su.PutSU(usuariodto, email);
             if (usuario == null)
             {
                 return NotFound("Usuario não encontrado");
@@ -78,11 +78,11 @@ namespace Biblioteca_Usuario
         }
 
         [Authorize(Roles = "Usuario")]
-        [HttpGet("{id}")]
+        [HttpGet("{Email}")]
 
-        public async Task<IActionResult> GetId(int id)
+        public async Task<IActionResult> GetEmail(string Email)
         {
-            var usuario = await _Su.GetIdSU(id);
+            var usuario = await _Su.FirstOrDefault(Email);
             if(usuario == null)
             {
                 return NotFound("Usuario não encontrado");

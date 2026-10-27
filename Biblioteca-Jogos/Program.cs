@@ -26,7 +26,6 @@ builder.Services.AddSwaggerGen();
    
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddDbContext<MyContext>(Options => Options.UseSqlServer(ConnectionString));
-builder.Services.AddScoped<ServiceJogo>();
 builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("bearer", new OpenApiSecurityScheme
@@ -58,7 +57,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
     {
 
 
-        var tokenparameters = new TokenValidationParameters
+        optins.TokenValidationParameters = new TokenValidationParameters
         {
 
             ValidateIssuer = true,
@@ -79,10 +78,32 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
 
         };
 
+        optins.Events = new JwtBearerEvents
+        {
+            OnForbidden = async context =>
+            {
+                context.Response.StatusCode = StatusCodes.Status403Forbidden;
+                context.Response.ContentType = "application/json";
+                await context.Response.WriteAsJsonAsync(new { message = "Acesso negado." });
+            },
+
+             OnAuthenticationFailed = async context =>
+             {
+                 context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                 context.Response.ContentType = "application/json";
+                 await context.Response.WriteAsJsonAsync(new { message = "Não Autorizado." });
+             }
+
+        };
+
     });
+builder.Services.AddScoped<ServiceJogo>();
 builder.Services.AddScoped<RepositoryJogo>();
 builder.Services.AddScoped<ServiceUsuario>();
 builder.Services.AddScoped<RepositoryUsuario>();
+builder.Services.AddScoped<RepositoryLista>();
+builder.Services.AddScoped<ServiceLista>();
+
 
 var app = builder.Build();
 

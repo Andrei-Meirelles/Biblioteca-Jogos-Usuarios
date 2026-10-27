@@ -37,13 +37,16 @@
 
         }
 
-        public async Task<Jogo?> PutSJ(int id)
+        public async Task<Jogo?> PutSJ(JogoRequest jogodto,int id)
         {
             var jogo = await _Rj.GetIdRJ(id);
             if (jogo == null)
             {
                 return null;
             }
+            jogo.Nome = jogodto.Nome;
+            jogo.Avaliacao = jogodto.Avaliacao;
+            jogo.Status = jogodto.Status;
             await _Rj.PutRj();
 
             return jogo;
