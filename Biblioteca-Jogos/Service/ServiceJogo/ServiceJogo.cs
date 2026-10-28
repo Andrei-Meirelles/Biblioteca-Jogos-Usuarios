@@ -1,4 +1,6 @@
-﻿namespace Biblioteca_Jogos
+﻿using Biblioteca_Jogos.DTOS.DtoJogo;
+
+namespace Biblioteca_Jogos
 {
     public class ServiceJogo
     {
@@ -17,8 +19,10 @@
             {
                 return null;
             }
-            return jogo;
 
+            return jogo;
+           
+            
 
 
         }

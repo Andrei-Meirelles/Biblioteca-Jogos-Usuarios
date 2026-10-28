@@ -1,4 +1,5 @@
 ﻿using Biblioteca_Jogos;
+using Biblioteca_Jogos.DTOS.DtoJogo;
 using Biblioteca_Jogos.DTOS.DtoLista;
 
 namespace Biblioteca_Usuario
@@ -18,7 +19,7 @@ namespace Biblioteca_Usuario
             _Ru = Ru;
         }
 
-        public async Task<List<Jogo>?> GetSL(string Email)
+        public async Task<List<JogoResponse>?> GetSL(string Email)
         {
            
             if (Email == null)
@@ -36,7 +37,17 @@ namespace Biblioteca_Usuario
                 return null;
             }
 
-            return jogos;
+            return jogos!.Select(j => new JogoResponse
+            {
+
+                Nome = j.Nome,
+                Avaliacao = j.Avaliacao,
+                Status = j.Status
+
+
+            }).ToList();
+
+            
         }
 
         public async Task<bool> PostSl(ListaDto lista,string Email)
